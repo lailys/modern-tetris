@@ -1,11 +1,16 @@
-import GameContainer from "./container/gameContainer";
+import { TetrisContextComp } from "./provider/provider";
 import "./App.css";
+import GameContainer from "./gameContainer/gameContainer";
+import ShapeContainer from "./shapeContainer/shapeContainer";
 
 function App() {
   return (
-    <div className="App">
-      <GameContainer />
-    </div>
+    <TetrisContextComp>
+      <div className="App">
+        <GameContainer />
+        <ShapeContainer />
+      </div>
+    </TetrisContextComp>
   );
 }
 

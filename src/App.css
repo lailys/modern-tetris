@@ -1,10 +1,26 @@
 :root { 
   --main-background: black; 
   --main-border:#ffffff26 ;
-  --main-width:900px;
-  --main-height:700px;
-  --container-w:400px;
-  --container-h:700px;
+  --main-width:800px;
+  --main-height:720px;
+  --container-w:390px;
+  --container-h:720px;
+  --square-w:20px;
+  --square-h:20px;
+  --square-view-w:40px;
+  --square-view-h:40px;
+  --shape-view-w:180px;
+  --shape-view-h:180px;
+  --square-color-1:#ff006e;
+  --square-color-2:#3a86ff;
+  --square-color-3:#fb5607;
+  --square-color-4:#00ff00;
+  --square-color-5:#8338ec;
+  --border-left-color: rgba(255, 255, 255, 0.20);
+  --border-top-color: rgba(255, 255, 255, 0.33);
+  --border-right-color: rgba(0, 0, 0, 0.15);
+  --border-bottom-color: rgba(0, 0, 0, 0.5);
+
 }
 html{
   padding: 0;

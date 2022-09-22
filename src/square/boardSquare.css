@@ -1,0 +1,35 @@
+.square{
+    /* border: solid 1px red; */
+    color:white;
+    border-left: solid 5px var(--border-left-color);
+    border-top: solid 5px var(--border-top-color);
+    border-right: solid 5px var(--border-right-color);
+    border-bottom: solid 5px var(--border-bottom-color);
+    width: var(--square-w);
+    height: var(--square-h);
+}
+.view-square{
+    /* border: solid 1px red; */
+    border-left: solid 10px var(--border-left-color);
+    border-top: solid 10px var(--border-top-color);
+    border-right: solid 10px var(--border-right-color);
+    border-bottom: solid 10px var(--border-bottom-color);
+    width:  var(--square-view-w);
+    height: var(--square-view-h);
+}
+
+.o-square {
+    background: #ff006e;
+}
+.i-square {
+    background: #3a86ff;
+}
+.l-square {
+    background: #fb5607;
+}
+.c-square {
+    background: #00ff00;
+}
+.s-square {
+    background: #8338ec;
+}

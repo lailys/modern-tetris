@@ -1,0 +1,11 @@
+.shape-container{
+    /* border:solid yellow 1px; */
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    position: absolute;
+    top:290px;
+    right:115px;
+    width:  var(--shape-view-w);
+    height: var(--shape-view-h);
+}

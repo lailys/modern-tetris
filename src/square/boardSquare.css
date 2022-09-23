@@ -1,6 +1,6 @@
 .square{
+    background: black;
     /* border: solid 1px red; */
-    color:white;
     border-left: solid 5px var(--border-left-color);
     border-top: solid 5px var(--border-top-color);
     border-right: solid 5px var(--border-right-color);
@@ -17,7 +17,9 @@
     width:  var(--square-view-w);
     height: var(--square-view-h);
 }
-
+.clear-square{
+    background: transparent;
+}
 .o-square {
     background: #ff006e;
 }

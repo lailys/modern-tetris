@@ -12,14 +12,14 @@
   --shape-view-w:180px;
   --shape-view-h:180px;
   --square-color-1:#ff006e;
-  --square-color-2:#3a86ff;
+  --square-color-2:#2679ff;
   --square-color-3:#fb5607;
   --square-color-4:#00ff00;
-  --square-color-5:#8338ec;
-  --border-left-color: rgba(255, 255, 255, 0.20);
-  --border-top-color: rgba(255, 255, 255, 0.33);
-  --border-right-color: rgba(0, 0, 0, 0.15);
-  --border-bottom-color: rgba(0, 0, 0, 0.5);
+  --square-color-5:#7e2bf2;
+  --border-left-color: rgba(255, 255, 255, 0.10);
+  --border-top-color: rgba(255, 255, 255, 0.13);
+  --border-right-color: rgba(139, 139, 139, 0.095);
+  --border-bottom-color: rgba(0, 0, 0, 0.4);
 
 }
 html{
@@ -35,10 +35,11 @@ html{
   /* border: solid pink 1px; */
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
-  position: fixed;
+  align-items: flex-end;
+  position: relative;
   top:calc((100vh - var(--main-height)) / 2);
   left:calc((100vw - var(--main-width)) / 2);
+  overflow: hidden;
   width:var(--main-width);
   height: var(--main-height);
 }
